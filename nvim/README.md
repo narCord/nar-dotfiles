@@ -1,1 +1,0 @@
-.config/nvim/README.md
