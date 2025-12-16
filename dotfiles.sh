@@ -7,5 +7,5 @@ cp -r ~/.config/fuzzel ~/git/nar-dotfiles
 #-------------------------------------------------#
 cd ~/git/nar-dotfiles
 git add --all
-git commit
+git commit -m "Actualizacion dotfiles"
 git push
