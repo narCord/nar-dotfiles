@@ -6,12 +6,30 @@
 local M = {}
 
 M.base46 = {
-	theme = "chocolate",
+	theme = "obsidian-ember",
 
-	-- hl_override = {
+  hl_override = {
 	-- 	Comment = { italic = true },
 	-- 	["@comment"] = { italic = true },
-	-- },
+    -- Bold and italics
+	  ["@keyword.repeat"] = { bold = true },
+	  ["@function.call"] = { bold = true },
+	  ["@keyword.conditional"] = { bold = true, fg = "#ff8548" },
+
+    -- Colors
+    ["@string"] = { fg = "#1a6e31" },
+    ["@variable.parameter"] = { fg = "#ffffff" },
+    ["@string.escape"] = { fg = "#1a6e31" },
+    ["@character"] = { fg = "#1a6e31" },
+  },
+
+  hl_add = {
+    -- C
+	  ["@property.c"] = { fg = "#ffffff" },
+    ["@keyword.modifier.c"] = { fg = "#ff8548" },
+
+    -- Python
+  },
 }
 
 -- M.nvdash = { load_on_startup = true }

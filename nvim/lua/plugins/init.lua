@@ -15,12 +15,7 @@ return {
 
   -- test new blink
   -- { import = "nvchad.blink.lazyspec" },
-  { 
-    "ramojus/mellifluous.nvim",
-    config = function()
-      vim.cmd([[colorscheme mellifluous]])
-    end,
-  },
+
   -- {
   -- 	"nvim-treesitter/nvim-treesitter",
   -- 	opts = {

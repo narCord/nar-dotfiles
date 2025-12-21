@@ -25,7 +25,6 @@ require("lazy").setup({
   { import = "plugins" },
 }, lazy_config)
 
-
 -- load theme
 dofile(vim.g.base46_cache .. "defaults")
 dofile(vim.g.base46_cache .. "statusline")
@@ -36,8 +35,3 @@ require "autocmds"
 vim.schedule(function()
   require "mappings"
 end)
-
--- Added configs
-vim.opt["tabstop"] = 4 
-vim.opt["shiftwidth"] = 4
-vim.opt["relativenumber"] = true

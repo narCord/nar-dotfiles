@@ -1,14 +1,7 @@
-source /usr/share/cachyos-fish-config/cachyos-config.fish
-
-# overwrite greeting
-# potentially disabling fastfetch
-#function fish_greeting
-#    # smth smth
-#end
-
 # alias nar
 alias vi='nvim'
 alias h='cd /home/nar'
+
 
 # Esta es la funcion del prompt basico, funciona perfectamente
 #function fish_prompt -d "Caca"
