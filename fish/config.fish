@@ -1,6 +1,8 @@
 # alias nar
 alias vi='nvim'
 alias h='cd /home/nar'
+alias ll='ls -l --color=auto'
+alias la='ls -a --color=auto'
 
 
 # Esta es la funcion del prompt basico, funciona perfectamente
